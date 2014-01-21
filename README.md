@@ -1,4 +1,5 @@
-billmeister
-===========
+#BillMeister
 
-BillMeister CRM and Invoice management system
+BillMeister CRM and Invoice management system.
+
+Still in development.
