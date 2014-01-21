@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+    width: 80%;
+}
+
+#left-panel {
+    border-right: 1px solid #666;
+    width: 0px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 40px;
+    float: left;
+}
+
+#left-panel a {
+    display: block;
+    line-height: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+}
+
+#clicker {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/faticons/32/list-01-128.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    
+}
+
+.panel {
+    margin-top: 25px;
+    left: 0px;
+    float: left;
+}
+
+.panel h1 {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom:1px solid;
+    border-right: 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 8px;
+    color: #555;
+}
+
+.content {
+    border: 1px solid #d2d2d2;
+    margin-left: 50px;    
+}
+
+.desc {
+    margin: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.right { float: right;}
+.left { float: left;}
+
+.done {
+    background-image: url("https://cdn3.iconfinder.com/data/icons/faticons/32/done-01-128.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.start {
+    background-image: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-128.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+th {
+    background-color: #444;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid #d2d2d2;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BillMeister Mockup</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="app.js"></script> 
+
+
+<div class="clearfix">
+    <div onclick="toggle()" id="clicker"></div>
+        <div onclick="untoggle()" id="left-panel">
+            <hr>
+            <a href="#">History</a>
+            <a href="#">Customer Relations</a> 
+            <hr>
+            <a href="#">Projects</a>
+            <a href="#">Tasks</a>
+            <a href="#">Hours</a>
+            <hr>
+            <a href="#">Invoices</a>
+        </div>
+        <div class="panel">
+            <h1> Projects</h1>
+            <div class="content">
+                <h2> Project name </h2>
+                <div class="desc">This is where the description of the project will come.</div>
+                <div class="start left"></div>
+                <div class="done right"></div>
+               <table>
+                   <tr>
+                       <th>Time start</th>
+                       <th>Time stop</th>
+                       <th>Total</th>
+                       <th>Day</th>
+                       <th>Month</th>
+                       <th>Year</th>
+                   </tr>
+                   <tr class="date">
+                       <td class="time-start">15.00</td>
+                       <td class="time-stop">22.00</td>
+                       <td class="time-total">8</td>
+                       <td class="day">21</td>
+                       <td class="month">01</td>
+                       <td class="year">14</td>
+                   </tr>
+                   <tr class="date">
+                       <td class="time-start">12.00</td>
+                       <td class="time-stop">19.00</td>
+                       <td class="time-total">7</td>
+                       <td class="day">18</td>
+                       <td class="month">01</td>
+                       <td class="year">14</td>
+                   </tr>
+                </table>
+            </div>
+    </div>
+ </div>
+</body>
+
+</html>
